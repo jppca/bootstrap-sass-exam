@@ -1,0 +1,105 @@
+/*
+Styles-Block-4
+*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
+.background-b4 {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wrapper-b4 {
+  overflow: hidden;
+}
+.wrapper-title-b4 {
+  text-align: center;
+  border-bottom: 2px solid #f5f5f5;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#btn-prev-b4{
+  margin: 0;
+  background-color: white;
+  border: none;
+
+}
+
+#btn-next-b4{
+  margin: 0;
+  background-color: white;
+  border: none;
+
+}
+
+.styles-link-b4{
+text-decoration: none;
+position: absolute;
+color: #979797;
+left: 50%;
+bottom: 10px;
+transform:translateX(-50%);
+transition: all .5s;
+}
+
+.styles-link-b4:hover{
+ color: #d01418;
+}
+
+.title-b4 {
+  margin: 0;
+}
+.carousel-b4 {
+  padding: 0;
+}
+
+.card-b4 {
+  min-height: 160px;
+  background-color: #f5f5f5;
+  border: none;
+}
+
+#custom-row-b4{
+display: inline-flex;
+flex-wrap: nowrap;
+transform: translateX(0px);
+transition: all .5s;
+}
+
+.custom-col-b4{
+  background-color: white;
+}
+
+/*
+ -------------------------------------------------------
+ Breakpoint - 768px
+ */
+
+@media screen and (min-width: 768px) {
+}
+
+/*
+ -------------------------------------------------------
+ Breakpoint - 1024px
+*/
+
+@media screen and (min-width: 1024px) {
+}
+
+/*
+ -------------------------------------------------------
+ Breakpoint - 1440px
+ */
+
+@media screen and (min-width: 1440px) {
+
+}
+
