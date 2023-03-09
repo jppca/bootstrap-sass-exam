@@ -12,6 +12,10 @@ padding-top: 30px;
 padding-bottom: 30px;
 }
 
+.dis-side-bar{
+ display: none;
+}
+
 
 /*
  -------------------------------------------------------
@@ -36,6 +40,9 @@ padding-bottom: 30px;
  
  @media screen and (min-width: 1200px){
  
+  .dis-side-bar{
+    display: block;
+   }
  
  }
  

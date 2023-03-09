@@ -60,6 +60,14 @@
   color: white;
 }
 
+.dis-text-b8{
+ display: none;
+}
+
+.heading-btn-size-b8{
+font-size: 12px;
+}
+
 /* .wrapper-info-hero *:nth-child(1){
   margin-top: 0;
 }
@@ -79,6 +87,14 @@
     margin-top: 10px;
   }
 
+  .dis-text-b8{
+    display: none;
+   }
+   
+   .heading-btn-size-b8{
+   font-size: 12px;
+   }
+
 }
 /*Breakpoint - 1024px*/
 @media screen and (min-width: 1024px) {
@@ -90,6 +106,25 @@
   .card-body-b8 * + *{
     margin-top: 10px;
   }
+
+  .dis-text-b8{
+    display: none;
+   }
+   
+   .heading-btn-size-b8{
+   font-size: 20px;
+   }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .dis-text-b8{
+    display: block;
+   }
+   
+   .heading-btn-size-b8{
+   font-size: 20px;
+   }
 
 }
 
@@ -103,5 +138,13 @@
   .card-body-b8 * + *{
     margin-top: 10px;
   }
+
+  .dis-text-b8{
+    display: block;
+   }
+   
+   .heading-btn-size-b8{
+   font-size: 25px;
+   }
 
 }
