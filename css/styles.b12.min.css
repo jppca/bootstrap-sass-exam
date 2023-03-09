@@ -1,0 +1,112 @@
+/*
+Styles-Block-12
+*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
+
+.background-b12 {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wrapper-btn-testimonials-b12 [data-bs-target] {
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  background-color: #d01418;
+}
+
+.wrapper-btn-b12 {
+  margin: 0;
+  padding: 16px;
+}
+
+.wrapper-card-b12 {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: black;
+  background-color: #f5f5f5;
+}
+
+.wrapper-card-b12 svg {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 30px;
+  left: 50%;
+  z-index: 1;
+  color: #f0cccb;
+  background-color: #f5f5f5;
+}
+
+.card-b12-info *:nth-child(1) {
+  margin-top: 0;
+}
+
+.wrapper-card-b12 * + * {
+  margin-top: 15px;
+}
+
+.card-b12-info .title-testimonials {
+  color: #d01418;
+}
+
+.card-b12-img {
+  display: flex;
+  justify-content: center;
+  padding: 0px 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-b12-img img {
+  z-index: 2;
+  border: 2px solid #d01418;
+  border-radius: 100%;
+}
+
+.card-b12-info {
+  position: relative;
+  padding: 0px 16px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+/*
+  -------------------------------------------------------
+  Breakpoint - 768px
+*/
+
+@media screen and (min-width: 768px) {
+}
+
+/*
+  -------------------------------------------------------
+  Breakpoint - 1024px
+*/
+
+@media screen and (min-width: 1024px) {
+  .card-b12-info .title-testimonials {
+    color: #d01418;
+    font-size: 20px;
+  }
+
+  .card-b12-info .subtitle-testimonials {
+    font-size: 20px;
+  }
+}
+
+/*
+  -------------------------------------------------------
+  Breakpoint - 1440px
+*/
+
+@media screen and (min-width: 1440px) {
+}
