@@ -339,4 +339,8 @@ Breakpoint - 1440px
     border-left: 1px solid#414141;
     padding-left: 10px;
   }
+
+  .btn-main-nav-s3 {
+    width: 210px;
+  }
 }

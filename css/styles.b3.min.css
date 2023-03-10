@@ -1,12 +1,17 @@
-/*b5-styles*/
-/*Breakpoint - 375px*/
+/*
 
+Styles-Block-3
+
+*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
 .background-b3{
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-
-
 }
 
 .wrapper-b3{
@@ -55,7 +60,10 @@ background-color: #e3e5e9;
   margin-top: 16px;
 } */
 
-/*Breakpoint - 768px*/
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
 @media screen and (min-width: 768px) {
 
   .wrapper-b3 * + *{
@@ -67,7 +75,11 @@ background-color: #e3e5e9;
   }
 
 }
-/*Breakpoint - 1024px*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
 @media screen and (min-width: 1024px) {
 
   .wrapper-b3 * + *{
@@ -80,7 +92,10 @@ background-color: #e3e5e9;
 
 }
 
-/*Breakpoint - 1440px*/
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
 @media screen and (min-width: 1440px) {
 
   .wrapper-b3 * + *{

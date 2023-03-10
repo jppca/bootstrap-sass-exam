@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width = device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/styles.min.css">
   <link rel="stylesheet" href="./css/styles.nav.min.css">
@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/styles.hero.min.css">
   <link rel="stylesheet" href="./css/styles.side-bar.min.css">
   <link rel="stylesheet" href="./css/styles.b1.min.css">
+  <link rel="stylesheet" href="./css/styles.b2.min.css">
   <link rel="stylesheet" href="./css/styles.b3.min.css">
   <link rel="stylesheet" href="./css/styles.b4.min.css">
   <link rel="stylesheet" href="./css/styles.b5.min.css">
@@ -591,47 +592,112 @@
             </div>
           </section>
           <!-- ******************************* -->
-          <!--Block-3-->
-          <div class="wrapper-b3">
-            <div class="row">
-              <div class="col">
-                <div class="wrapper-title-b1">
-                  <h2 class="text-center">OUR PRODUCT</h2>
+          <!--Block-2-->
+          <div class="background-b2">
+            <div class="wrapper-b2">
+              <div class="row">
+                <div class="col">
+                  <div class="wrapper-title-b1">
+                    <h2 class="text-center">OUR PRODUCT</h2>
+                  </div>
                 </div>
               </div>
+              <ul class="nav nav-tabs justify-content-center" id="b1-Tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link nav-link-b2 active" id="featured-tab" data-bs-toggle="tab" data-bs-target="#featured" type="button" role="tab" aria-controls="featured" aria-selected="false" tabindex="-1">FEATURED</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link nav-link-b2" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button" role="tab" aria-controls="latest" aria-selected="true">LATEST</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link nav-link-b2" id="besteller-tab" data-bs-toggle="tab" data-bs-target="#besteller" type="button" role="tab" aria-controls="besteller" aria-selected="false" tabindex="-1">BESTSELLER</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade active show" id="featured" role="tabpanel" aria-labelledby="featured-tab">
+
+                 <h3 class="text-center">Tap 1</h3>
+
+                 <div id="carousel-testimonials-b12" class="carousel slide">
+                   <div class="carousel-indicators wrapper-btn-b12">
+                     <div class="wrapper-btn-testimonials-b12">
+                       <button type="button" data-bs-target="#carousel-testimonials-b2" data-bs-slide-to="0"
+                         class="active" aria-current="true" aria-label="Slide 2"></button>
+                       <button type="button" data-bs-target="#carousel-testimonials-b2" data-bs-slide-to="1"
+                         aria-label="Slide 2"></button>
+                       <button type="button" data-bs-target="#carousel-testimonials-b2" data-bs-slide-to="2"
+                         aria-label="Slide 2"></button>
+                     </div>
+                   </div>
+                   <div class="carousel-inner">
+                     <div class="carousel-item mt-1 active">
+                       <div class="card text-center">
+                         <div class="card-header">
+                           Featured
+                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Special title treatment</h5>
+                           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                         <div class="card-footer text-muted">
+                           2 days ago
+                         </div>
+                       </div>
+                     </div>
+                     <div class="carousel-item mt-1">
+                       <div class="card text-center">
+                         <div class="card-header">
+                           Featured
+                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Special title treatment</h5>
+                           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                         <div class="card-footer text-muted">
+                           2 days ago
+                         </div>
+                       </div>
+
+
+                     </div>
+                     <div class="carousel-item mt-1">
+                       <div class="card text-center">
+                         <div class="card-header">
+                           Featured
+                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Special title treatment</h5>
+                           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                         <div class="card-footer text-muted">
+                           2 days ago
+                         </div>
+                       </div>
+
+                     </div>
+                   </div>
+                 </div>
+
+                </div>
+                <div class="tab-pane fade" id="latest" role="tabpanel" aria-labelledby="latest-tab">
+
+                  <h3 class="text-center">Tap 2</h3>
+
+                </div>
+                <div class="tab-pane fade" id="besteller" role="tabpanel" aria-labelledby="besteller-tab">
+
+                  <h3 class="text-center">Tap 3</h3>
+
+                </div>
+              </div>
+
             </div>
-            <ul class="nav nav-tabs justify-content-center" id="b1-Tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link text-primary" id="featured-tab" data-bs-toggle="tab" data-bs-target="#featured" type="button" role="tab" aria-controls="featured" aria-selected="false" tabindex="-1">FEATURED</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link text-primary active" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button" role="tab" aria-controls="latest" aria-selected="true">LATEST</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link text-primary" id="besteller-tab" data-bs-toggle="tab" data-bs-target="#besteller" type="button" role="tab" aria-controls="besteller" aria-selected="false" tabindex="-1">BESTSELLER</button>
-              </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade" id="featured" role="tabpanel" aria-labelledby="featured-tab">
-
-               <h3 class="text-center">Tap 1</h3>
-
-              </div>
-              <div class="tab-pane fade active show" id="latest" role="tabpanel" aria-labelledby="latest-tab">
-
-                <h3 class="text-center">Tap 2</h3>
-               
-              </div>
-              <div class="tab-pane fade" id="besteller" role="tabpanel" aria-labelledby="besteller-tab">
-                
-                <h3 class="text-center">Tap 3</h3>
-               
-              </div>
-            </div>
-
           </div>
           <!-- ******************************* -->
-          <!--Block-2-->
+          <!--Block-3-->
           <section class="background-b3">
             <div class="wrapper-b3">
               <div class="row">
