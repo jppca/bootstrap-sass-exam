@@ -9,7 +9,7 @@ var uglify            = require('gulp-uglify');
 sass.compiler         = require('node-sass');
 
 gulp.task('sass', function () {
-  return gulp.src('./scss/*.scss')
+  return gulp.src('./scss/style.scss')
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(removeSourcemaps())
     .pipe(gulp.dest('./css'));

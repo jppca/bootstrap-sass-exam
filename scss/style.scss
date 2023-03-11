@@ -1,9 +1,9 @@
 /**
  * Bootstrap.
  */
- @import "../scss/bootstrap-5/bootstrap";
-//  @import 'variables';
-
+ @import "../node_modules/bootstrap/scss/bootstrap";
+ @import 'variables';
+ // @import 'variables';
  /**
  * Customs.
  */

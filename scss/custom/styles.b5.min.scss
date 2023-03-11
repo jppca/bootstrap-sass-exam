@@ -56,8 +56,20 @@ background-color: black;
 } */
 
 /*Breakpoint - 768px*/
-@media screen and (min-width: 768px) {
+// @media screen and (min-width: 768px) {
+//
+//   .wrapper-b5 * + *{
+//    margin-top: 10px;
+//   }
+//
+//   .card-body-b5 * + *{
+//    margin-top: 10px;
+//   }
+//
+// }
 
+@include media-breakpoint-up(md) {
+  
   .wrapper-b5 * + *{
    margin-top: 10px;
   }
@@ -65,8 +77,8 @@ background-color: black;
   .card-body-b5 * + *{
    margin-top: 10px;
   }
-
 }
+
 /*Breakpoint - 1024px*/
 @media screen and (min-width: 1024px) {
 
