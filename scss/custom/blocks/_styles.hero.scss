@@ -55,6 +55,19 @@
   margin: 0;
 }
 
+// .carousel-indicators-hero{
+//   border-radius: 100%;
+//   width: 20px;
+//   height: 20px;
+  
+// }
+
+.wrapper-btn-hero [data-bs-target] {
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+}
+
 /*Breakpoint - 768px*/
 @media screen and (min-width: 768px) {
 

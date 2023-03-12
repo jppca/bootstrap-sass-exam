@@ -1,10 +1,11 @@
 /**
  * Bootstrap.
  */
- @import "../node_modules/bootstrap/scss/bootstrap";
- @import 'variables';
- // @import 'variables';
- /**
- * Customs.
+@import "../node_modules/bootstrap/scss/functions";
+@import 'variables';
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+/*
+ * Custom-styles.
  */
-@import 'custom';
+ @import 'custom';

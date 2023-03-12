@@ -1,21 +1,29 @@
 
+ 
+/**
+ * Components.
+ */
+@import 'custom/components/reboot';
+@import 'custom/components/custom-buttons';
+@import 'custom/components/custom-accordion';
+
  /**
  * Blocks.
  */
-@import 'custom/styles.b1.min.scss';
-@import 'custom/styles.b2.min.scss';
-@import 'custom/styles.b3.min.scss';
-@import 'custom/styles.b4.min.scss';
-@import 'custom/styles.b5.min.scss';
-@import 'custom/styles.b8.min.scss';
-@import 'custom/styles.b9.min.scss';
-@import 'custom/styles.b10.min.scss';
-@import 'custom/styles.b11.min.scss';
-@import 'custom/styles.b12.min.scss';
-@import 'custom/styles.hero.min.scss';
-@import 'custom/styles.min.scss';
-@import 'custom/styles.nav.min-1.scss';
-@import 'custom/styles.nav.min.scss';
-@import 'custom/styles.side-bar.min.scss';
+@import 'custom/blocks/styles-g';
+@import 'custom/blocks/styles.nav';
+@import 'custom/blocks/styles.nav-1';
+@import 'custom/blocks/styles.side-bar';
+@import 'custom/blocks/styles.hero';
+@import 'custom/blocks/styles.b1';
+@import 'custom/blocks/styles.b2';
+@import 'custom/blocks/styles.b3';
+@import 'custom/blocks/styles.b4';
+@import 'custom/blocks/styles.b5';
+@import 'custom/blocks/styles.b8';
+@import 'custom/blocks/styles.b9';
+@import 'custom/blocks/styles.b10';
+@import 'custom/blocks/styles.b11';
+@import 'custom/blocks/styles.b12';
 
 
