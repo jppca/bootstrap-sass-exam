@@ -14,22 +14,6 @@ Breakpoint - 375px
   padding-bottom: 30px;
 }
 
-.wrapper-b2{
-
-}
-
-/* .wrapper-b2 * + *{
- margin-top: 10px;
-} */
-
-/* .card-body-b3 * + *{
- margin-top: 10px;
-}
-
-.card-body-b3 *:nth-child(1){
-  margin-top: 0;
-} */
-
 .nav-link-b2{
   color: black;
 }
@@ -47,6 +31,15 @@ Breakpoint - 375px
   border-right-color: white;
   border-top-color: white;
   border-bottom-color: #d01318;
+}
+
+.wrapper-btn-b2 {
+  margin: 0;
+  padding: 0;
+}
+
+.card-b2{
+  border: none;
 }
 
 /*

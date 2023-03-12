@@ -10654,6 +10654,13 @@ Breakpoint - 375px
   border-top-color: white;
   border-bottom-color: #d01318; }
 
+.wrapper-btn-b2 {
+  margin: 0;
+  padding: 0; }
+
+.card-b2 {
+  border: none; }
+
 /*
 -------------------------------------------------------
 Breakpoint - 768px
