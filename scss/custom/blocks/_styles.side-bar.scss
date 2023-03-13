@@ -7,7 +7,7 @@ nav-styles
 Breakpoint - 375px
 */
 .wrapper-side-bar{
-background-color: white;
+background-color: $white;
 padding-top: 30px;
 padding-bottom: 30px;
 }
@@ -15,7 +15,6 @@ padding-bottom: 30px;
 .dis-side-bar{
  display: none;
 }
-
 
 /*
  -------------------------------------------------------
@@ -28,24 +27,20 @@ padding-bottom: 30px;
  -------------------------------------------------------
  Breakpoint - 1024px
  */
- 
  @media screen and (min-width: 1024px) {
  
    
  }
  
- /*
- -------------------------------------------------------
- */
- 
- @media screen and (min-width: 1200px){
- 
+/*
+-------------------------------------------------------
+*/
+@include media-breakpoint-up(xl) { 
   .dis-side-bar{
     display: block;
    }
  
  }
- 
  /*
  -------------------------------------------------------
  Breakpoint - 1440px

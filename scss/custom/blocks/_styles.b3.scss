@@ -1,7 +1,5 @@
 /*
-
-Styles-Block-3
-
+Block-3
 */
 
 /*
@@ -64,7 +62,7 @@ background-color: #e3e5e9;
 -------------------------------------------------------
 Breakpoint - 768px
 */
-@media screen and (min-width: 768px) {
+@include media-breakpoint-up(md) { 
 
   .wrapper-b3 * + *{
    margin-top: 10px;
@@ -80,7 +78,7 @@ Breakpoint - 768px
 -------------------------------------------------------
 Breakpoint - 1024px
 */
-@media screen and (min-width: 1024px) {
+@include media-breakpoint-up(lg) { 
 
   .wrapper-b3 * + *{
    margin-top: 0;
@@ -96,7 +94,7 @@ Breakpoint - 1024px
 -------------------------------------------------------
 Breakpoint - 1440px
 */
-@media screen and (min-width: 1440px) {
+@include media-breakpoint-up(xxl) { 
 
   .wrapper-b3 * + *{
    margin-top: 0;

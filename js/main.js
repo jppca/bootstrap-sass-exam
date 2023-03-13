@@ -31,3 +31,20 @@ function carouselMovePrevBs(){
   pxmov = customColRowBsix[0].offsetWidth;
   document.getElementById("custom-row-b6").style.transform = "translateX("+0+"px)";
 }
+
+/*carousel-b9 */
+
+document.getElementById('btn-next-b9').addEventListener('click',carouselMoveNextBs);
+let  customRowBnine = document.getElementsByClassName('custom-row-b9');
+function carouselMoveNextBs(){
+  customColBnine = document.getElementsByClassName('custom-col-b9');
+ let pxmov = customColBnine[0].offsetWidth;
+  document.getElementById("custom-row-b9").style.transform = "translateX(-"+pxmov+"px)";
+}
+
+document.getElementById('btn-prev-b9').addEventListener('click',carouselMovePrevBs);
+function carouselMovePrevBs(){
+  customColRowBnine = document.getElementsByClassName('custom-col-b9');
+  pxmov = customColRowBnine[0].offsetWidth;
+  document.getElementById("custom-row-b9").style.transform = "translateX("+0+"px)";
+}

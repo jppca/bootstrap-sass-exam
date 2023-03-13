@@ -1,14 +1,20 @@
-/*b5-styles*/
-/*Breakpoint - 375px*/
+/*
+Block-8
+*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
 
 .background-b8{
-  background-color: white;
+  background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .wrapper-b8{
-  background-color: white;
+  background-color: $white;
 }
 
 .wrapper-b8 * + *{
@@ -76,8 +82,11 @@ font-size: 12px;
   margin-top: 16px;
 } */
 
-/*Breakpoint - 768px*/
-@media screen and (min-width: 768px) {
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
+@include media-breakpoint-up(md) { 
 
   .wrapper-b8 * + *{
     margin-top: 10px;
@@ -96,8 +105,12 @@ font-size: 12px;
    }
 
 }
-/*Breakpoint - 1024px*/
-@media screen and (min-width: 1024px) {
+
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
+@include media-breakpoint-up(lg) { 
 
   .wrapper-b8 * + *{
     margin-top: 0;
@@ -106,18 +119,21 @@ font-size: 12px;
   .card-body-b8 * + *{
     margin-top: 10px;
   }
-
+  
   .dis-text-b8{
     display: none;
    }
-   
+
    .heading-btn-size-b8{
    font-size: 20px;
    }
-
 }
+/*
+-------------------------------------------------------
+Breakpoint - 1200px
+*/
+@include media-breakpoint-up(xl) { 
 
-@media screen and (min-width: 1200px) {
   .dis-text-b8{
     display: block;
    }
@@ -127,9 +143,11 @@ font-size: 12px;
    }
 
 }
-
-/*Breakpoint - 1440px*/
-@media screen and (min-width: 1440px) {
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
+@include media-breakpoint-up(xxl) { 
 
   .wrapper-b8 * + *{
     margin-top: 0;

@@ -3,7 +3,7 @@
 /*Breakpoint - 375px*/
 
 .background-hero{
-  background-color: white;
+  background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -29,7 +29,7 @@
 
 .wrapper-info-hero{
   padding: 40px 15px;
-  color: white;
+  color: $white;
   height: 100%;
   width: 100%;
 
@@ -68,8 +68,11 @@
   height: 15px;
 }
 
-/*Breakpoint - 768px*/
-@media screen and (min-width: 768px) {
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
+@include media-breakpoint-up(md) { 
 
   .dis-hero-element{
     display: none;
@@ -103,8 +106,11 @@
 
 
 }
-/*Breakpoint - 1024px*/
-@media screen and (min-width: 1024px) {
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
+@include media-breakpoint-up(lg) { 
 
   .dis-hero-element{
     display: block;
@@ -138,8 +144,11 @@
 
 }
 
-/*Breakpoint - 1440px*/
-@media screen and (min-width: 1440px) {
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
+@include media-breakpoint-up(xxl) { 
   .dis-hero-element{
     display: block;
   }

@@ -1,8 +1,15 @@
-/*Hero-styles*/
-/*Breakpoint - 375px*/
+/*
+Block-12
+*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
+
 
 .background-b12 {
-  background-color: white;
+  background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -15,7 +22,7 @@
 .card-b12 {
   border: none;
   background-color: black;
-  color: white;
+  color: $white;
   text-align: center;
   font-size: 12px;
 }

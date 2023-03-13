@@ -1,5 +1,11 @@
-/*b5-styles*/
-/*Breakpoint - 375px*/
+/*
+Block-5
+*/
+
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
 
 .background-b5{
   background-color: white;
@@ -67,7 +73,10 @@ background-color: black;
 //   }
 //
 // }
-
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
 @include media-breakpoint-up(md) {
   
   .wrapper-b5 * + *{
@@ -79,7 +88,10 @@ background-color: black;
   }
 }
 
-/*Breakpoint - 1024px*/
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
 @media screen and (min-width: 1024px) {
 
   .wrapper-b5 * + *{
@@ -92,7 +104,10 @@ background-color: black;
 
 }
 
-/*Breakpoint - 1440px*/
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
 @media screen and (min-width: 1440px) {
 
   .wrapper-b5 * + *{

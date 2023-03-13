@@ -1,39 +1,94 @@
-/*Hero-styles*/
-/*Breakpoint - 375px*/
+/*
+Block-9
+*/
 
-// .background-b9 {
-//   background-color: white;
-//   padding-top: 30px;
-//   padding-bottom: 30px;
-// }
+/*
+-------------------------------------------------------
+Breakpoint - 375px
+*/
 
-// .wrapper-b9 {
-//   border: 1px solid #d1d2d2;
-//   border-radius: 4px;
-// }
+.background-b9 {
+  background-color: $white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
-// .card-b9 {
-//   border: none;
-//   background-color: #becbd4;
-//   text-align: center;
-//   font-size: 12px;
-// }
+.wrapper-b9 {
+  overflow: hidden;
+}
 
-// .card-body *:nth-child(1) {
-//   margin-top: 0;
-// }
+.wrapper-title-b9 {
+  text-align: center;
+  border-bottom: 2px solid #f5f5f5;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
-// .card-body * + * {
-//   margin-top: 10px;
-// }
+#btn-prev-b9{
+  margin: 0;
+  background-color: $white;
+  border: none;
 
-// /*Breakpoint - 768px*/
-// @media screen and (min-width: 768px) {
-// }
-// /*Breakpoint - 1024px*/
-// @media screen and (min-width: 1024px) {
-// }
+}
 
-// /*Breakpoint - 1440px*/
-// @media screen and (min-width: 1440px) {
-// }
+#btn-next-b9{
+  margin: 0;
+  background-color: $white;
+  border: none;
+
+}
+
+.wrapper-b9-item-s{
+  display: flex;
+  // width: fit-content;
+  align-items: center;
+}
+
+.wrapper-b9-item-s svg{
+ margin-right: 2px;
+}
+
+#custom-row-b9{
+  // display: inline-flex;
+  flex-wrap: nowrap;
+  transform: translateX(0px);
+  transition: all .5s;
+  margin-top: 20px;
+  }
+  
+  .custom-col-b9{
+    background-color: $white;
+  }
+
+
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
+ @include media-breakpoint-up(md) { 
+
+ }
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
+@include media-breakpoint-up(lg) { 
+
+}
+/*
+-------------------------------------------------------
+Breakpoint - 1200px
+*/
+@include media-breakpoint-up(xl) { 
+
+}
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
+@include media-breakpoint-up(xxl) { 
+
+}

@@ -12,7 +12,7 @@ Breakpoint - 375px
 }
 
  .navbar-text{
- color: white;
+ color: $white;
 }
 
 /*Display-styles*/
@@ -27,19 +27,19 @@ margin-top:0;
 }
 
 .custom-nav svg{
-  color: #d01418;
+  color: $primary;
   margin-right: 10px;
 }
 .nav-link{
-  color: white;
+  color: $white;
 }
 
 .nav-link:hover{
-  color: #d01418;
+  color: $primary;
 }
 
 .nav-link:focus{
-  color: white;
+  color: $white;
 }
 
 
@@ -68,8 +68,8 @@ margin-top:0;
 
 .custom-btn-search{
  padding:12px 45px;
- background-color: #d01418;
- color: white;
+ background-color: $primary;
+ color: $white;
  margin-top: 0;
  border-top-left-radius:0;
  border-bottom-left-radius:0;
@@ -77,7 +77,7 @@ margin-top:0;
 
 .custom-btn-search:hover{
   background-color: black;
-  color: white;
+  color: $white;
   border-top-left-radius:0;
   border-bottom-left-radius:0;
  }
@@ -114,8 +114,8 @@ styles-section-3
 }
 
 .navbar-custom-btn-section-3{
-  background-color: #d01418;
-  color: white;
+  background-color: $primary;
+  color: $white;
   border: none;
   display: block;
   padding-top: 15px;
@@ -128,7 +128,7 @@ styles-section-3
 
 .navbar-custom-btn-section-3 svg{
   border-radius: 100%;
-  background-color: #da413f;
+  background-color: $primary;
   width: 30px;
   height: 30px;
   padding: 4px;
@@ -139,7 +139,7 @@ styles-section-3
   padding: 0px 15px 0px 15px;
   display: flex;
   text-decoration: none;
-  color: white;
+  color: $white;
 }
 
 .section-display-f-section{
@@ -150,8 +150,7 @@ styles-section-3
 -------------------------------------------------------
 Breakpoint - 768px
 */
-
-@media screen and (min-width: 768px) {
+@include media-breakpoint-up(md) { 
 
 
   /*Display-styles*/
@@ -214,8 +213,7 @@ Breakpoint - 768px
 -------------------------------------------------------
 Breakpoint - 1024px
 */
-
-@media screen and (min-width: 1024px) {
+@include media-breakpoint-up(lg) { 
 
   /*Display-styles*/
 .dis-mb{
@@ -262,8 +260,7 @@ Breakpoint - 1024px
 -------------------------------------------------------
 Breakpoint - 1440px
 */
-
-@media screen and (min-width: 1440px) {
+@include media-breakpoint-up(xxl) { 
 
   /*Display-styles*/
 .dis-mb{
@@ -311,11 +308,11 @@ Breakpoint - 1440px
     padding-top: 0;
     padding-bottom: 0;
     text-decoration: none;
-    color: white;
+    color: $white;
   }
 
   .nav-link-section-2:focus{
-    color: white;
+    color: $white;
   }
 
   /*section-3*/

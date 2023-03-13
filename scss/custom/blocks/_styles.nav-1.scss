@@ -98,7 +98,7 @@ Breakpoint - 375px
 
 .custom-btn-search-mn:hover {
   background-color: black;
-  color: white;
+  color: $white;
 }
 
 /*
@@ -121,7 +121,7 @@ styles-section-3
 -------------------------------------------------------
 Breakpoint - 768px
 */
-@media screen and (min-width: 768px) {
+@include media-breakpoint-up(md) { 
   .limiter-header {
     max-width: 728px;
   }
@@ -203,13 +203,11 @@ Breakpoint - 768px
     display: none;
   }
 }
-
 /*
 -------------------------------------------------------
 Breakpoint - 1024px
 */
-
-@media screen and (min-width: 1024px) {
+@include media-breakpoint-up(lg) { 
   .limiter-header {
     max-width: 984px;
   }
@@ -259,12 +257,11 @@ Breakpoint - 1024px
     display: none;
   }
 }
-
 /*
 -------------------------------------------------------
+Breakpoint - 1200px
 */
-
-@media screen and (min-width: 1200px) {
+@include media-breakpoint-up(xl) { 
   .limiter-header {
     max-width: 1160px;
   }
@@ -320,12 +317,11 @@ Breakpoint - 1024px
     padding-left: 10px;
   }
 }
-
 /*
 -------------------------------------------------------
 Breakpoint - 1440px
 */
-@media screen and (min-width: 1440px) {
+@include media-breakpoint-up(xxl) { 
   .limiter-header {
     max-width: 1400px;
   }

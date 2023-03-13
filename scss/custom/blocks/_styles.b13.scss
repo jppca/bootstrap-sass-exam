@@ -1,5 +1,5 @@
 /*
-Styles-Block-12
+Block-13
 */
 
 /*
@@ -80,19 +80,18 @@ Breakpoint - 375px
 }
 
 /*
-  -------------------------------------------------------
-  Breakpoint - 768px
+-------------------------------------------------------
+Breakpoint - 768px
 */
+@include media-breakpoint-up(md) { 
 
-@media screen and (min-width: 768px) {
 }
 
 /*
-  -------------------------------------------------------
-  Breakpoint - 1024px
+-------------------------------------------------------
+Breakpoint - 1024px
 */
-
-@media screen and (min-width: 1024px) {
+@include media-breakpoint-up(lg) { 
   .card-b13-info .title-testimonials {
     color: $primary;
     font-size: 20px;
@@ -104,9 +103,9 @@ Breakpoint - 375px
 }
 
 /*
-  -------------------------------------------------------
-  Breakpoint - 1440px
+-------------------------------------------------------
+Breakpoint - 1440px
 */
+@include media-breakpoint-up(xxl) { 
 
-@media screen and (min-width: 1440px) {
 }
