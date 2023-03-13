@@ -42,6 +42,47 @@ Breakpoint - 375px
   border: none;
 }
 
+
+.card-b2-btns-center-img {
+  display: inline-flex;
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+
+.card-b2-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: white;
+  color: #666666;
+  border: 1px solid #b8b8b8;
+}
+
+.card-b2-btn:hover {
+  display: flex;
+  /* margin: 5px;
+  padding: 5px; */
+  border-radius: 100%;
+  background-color: #d01418;
+  color: white;
+  border: 1px solid #d01418;
+  transition: all 0.5s;
+}
+
+.carousel-b2-0-item:hover .card-b2-btns-center-img {
+  transition: all 0.5s;
+  opacity: 1;
+}
+
 /*
 -------------------------------------------------------
 Breakpoint - 768px

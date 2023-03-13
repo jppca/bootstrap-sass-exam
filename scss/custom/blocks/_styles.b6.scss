@@ -8,16 +8,17 @@ Styles-Block-4
 -------------------------------------------------------
 Breakpoint - 375px
 */
-.background-b4 {
-  background-color: white;
+
+.background-b6 {
+  background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.wrapper-b4 {
+.wrapper-b6 {
   overflow: hidden;
 }
-.wrapper-title-b4 {
+.wrapper-title-b6 {
   text-align: center;
   border-bottom: 2px solid #f5f5f5;
   padding-bottom: 15px;
@@ -27,21 +28,21 @@ Breakpoint - 375px
   flex-wrap: nowrap;
 }
 
-#btn-prev-b4{
+#btn-prev-b6{
   margin: 0;
-  background-color: white;
+  background-color: $white;
   border: none;
 
 }
 
-#btn-next-b4{
+#btn-next-b6{
   margin: 0;
-  background-color: white;
+  background-color: $white;
   border: none;
 
 }
 
-.styles-link-b4{
+.styles-link-b6{
 text-decoration: none;
 color: #979797;
 /* left: 50%;
@@ -50,24 +51,24 @@ transform:translateX(-50%); */
 transition: all .5s;
 }
 
-.styles-link-b4:hover{
+.styles-link-b6:hover{
  color: #d01418;
 }
 
-.title-b4 {
+.title-b6 {
   margin: 0;
 }
-.carousel-b4 {
+.carousel-b6 {
   padding: 0;
 }
 
-.card-b4 {
+.card-b6 {
   min-height: 160px;
   background-color: #f5f5f5;
   border: none;
 }
 
-.card-img-b4{
+.card-img-b6{
   display: flex;
   justify-content: center;
 }
@@ -78,7 +79,7 @@ transition: all .5s;
   padding: 16px;
 } */
 
-#custom-row-b4{
+#custom-row-b6{
 // display: inline-flex;
 flex-wrap: nowrap;
 transform: translateX(0px);
@@ -86,8 +87,8 @@ transition: all .5s;
 margin-top: 20px;
 }
 
-.custom-col-b4{
-  background-color: white;
+.custom-col-b6{
+  background-color: $white;
 }
 
 /*
