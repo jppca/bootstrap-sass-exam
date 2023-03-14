@@ -1,11 +1,13 @@
 
- 
+
 /**
  * Components.
  */
 @import 'custom/components/reboot';
 @import 'custom/components/custom-buttons';
 @import 'custom/components/custom-accordion';
+@import 'custom/components/custom-accordion-f';
+
 
  /**
  * Blocks.
@@ -27,6 +29,4 @@
 @import 'custom/blocks/styles.b11';
 @import 'custom/blocks/styles.b12';
 @import 'custom/blocks/styles.b13';
-
-
-
+@import 'custom/blocks/styles.footer';

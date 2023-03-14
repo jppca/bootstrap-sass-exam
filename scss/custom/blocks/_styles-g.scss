@@ -25,7 +25,7 @@ span {
 }
 
  /*Breakpoint - 768px*/
- @include media-breakpoint-up(md) { 
+ @include media-breakpoint-up(md) {
   .order-col-custom-1 {
     order: 2;
   }
@@ -36,7 +36,7 @@ span {
  }
 
  /*Breakpoint - 1024px*/
-@include media-breakpoint-up(lg) { 
+@include media-breakpoint-up(lg) {
 
   .order-col-custom-1 {
     order: 2;
@@ -49,12 +49,12 @@ span {
 }
 
 /*Breakpoint - 1200px*/
-@include media-breakpoint-up(xl) { 
+@include media-breakpoint-up(xl) {
 
 }
 
 /*Breakpoint - 1440px*/
-@include media-breakpoint-up(xxl) { 
+@include media-breakpoint-up(xxl) {
 
   .order-col-custom-1 {
     order: 2;
@@ -65,33 +65,3 @@ span {
   }
 
 }
-
-// @media screen and (min-width: 768px) {
-//   .order-col-custom-1 {
-//     order: 2;
-//   }
-
-//   .order-col-custom-2 {
-//     order: 1;
-//   }
-// }
-
-// @media screen and (min-width: 1024px) {
-//   .order-col-custom-1 {
-//     order: 2;
-//   }
-
-//   .order-col-custom-2 {
-//     order: 1;
-//   }
-// }
-
-// @media screen and (min-width: 1440px) {
-//   .order-col-custom-1 {
-//     order: 2;
-//   }
-
-//   .order-col-custom-2 {
-//     order: 1;
-//   }
-// }

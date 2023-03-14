@@ -34,16 +34,16 @@ function carouselMovePrevBs(){
 
 /*carousel-b9 */
 
-document.getElementById('btn-next-b9').addEventListener('click',carouselMoveNextBs);
+document.getElementById('btn-next-b9').addEventListener('click',carouselMoveNextBn);
 let  customRowBnine = document.getElementsByClassName('custom-row-b9');
-function carouselMoveNextBs(){
+function carouselMoveNextBn(){
   customColBnine = document.getElementsByClassName('custom-col-b9');
  let pxmov = customColBnine[0].offsetWidth;
   document.getElementById("custom-row-b9").style.transform = "translateX(-"+pxmov+"px)";
 }
 
-document.getElementById('btn-prev-b9').addEventListener('click',carouselMovePrevBs);
-function carouselMovePrevBs(){
+document.getElementById('btn-prev-b9').addEventListener('click',carouselMovePrevBn);
+function carouselMovePrevBn(){
   customColRowBnine = document.getElementsByClassName('custom-col-b9');
   pxmov = customColRowBnine[0].offsetWidth;
   document.getElementById("custom-row-b9").style.transform = "translateX("+0+"px)";

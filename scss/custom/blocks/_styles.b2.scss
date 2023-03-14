@@ -6,8 +6,9 @@ Block-2
 -------------------------------------------------------
 Breakpoint - 375px
 */
+
 .background-b2{
-  background-color: white;
+  background-color:$white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -17,18 +18,18 @@ Breakpoint - 375px
 }
 
 .nav-tabs .nav-link.active {
-  color: #d01318;
-  border-left-color: white;
-  border-right-color: white;
-  border-top-color: white;
-  border-bottom-color: #d01318;
+  color: $primary;
+  border-left-color: $white;
+  border-right-color: $white;
+  border-top-color: $white;
+  border-bottom-color: $primary;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-left-color: white;
-  border-right-color: white;
-  border-top-color: white;
-  border-bottom-color: #d01318;
+  border-left-color: $white;
+  border-right-color: $white;
+  border-top-color: $white;
+  border-bottom-color: $primary;
 }
 
 .wrapper-btn-b2 {
@@ -39,7 +40,6 @@ Breakpoint - 375px
 .card-b2{
   border: none;
 }
-
 
 .card-b2-btns-center-img {
   display: inline-flex;
@@ -60,7 +60,7 @@ Breakpoint - 375px
   width: 32px;
   height: 32px;
   border-radius: 100%;
-  background-color: white;
+  background-color: $white;
   color: #666666;
   border: 1px solid #b8b8b8;
 }
@@ -71,7 +71,7 @@ Breakpoint - 375px
   padding: 5px; */
   border-radius: 100%;
   background-color: #d01418;
-  color: white;
+  color: $white;
   border: 1px solid #d01418;
   transition: all 0.5s;
 }
@@ -85,23 +85,15 @@ Breakpoint - 375px
 -------------------------------------------------------
 Breakpoint - 768px
 */
-@media screen and (min-width: 768px) {
 
-}
 
 /*
 -------------------------------------------------------
 Breakpoint - 1024px
 */
-@media screen and (min-width: 1024px) {
 
-}
 
 /*
 -------------------------------------------------------
 Breakpoint - 1440px
 */
-@media screen and (min-width: 1440px) {
-
-
-}
