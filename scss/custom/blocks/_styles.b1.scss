@@ -44,7 +44,7 @@ Breakpoint - 375px
   }
 }
 
-.wrapper-card-b1:hover{
+.wrapper-card-b1:hover {
   .card-img-b1 {
     .wrapper-card-img-b1 {
       border: 1px solid $primary;
@@ -63,12 +63,12 @@ Breakpoint - 375px
   }
 }
 
-.card-body{
+.card-body {
   *:nth-child(1) {
     margin-top: 0;
   }
   * + * {
-  margin-top: 10px;
+    margin-top: 10px;
   }
 }
 
@@ -78,7 +78,6 @@ Breakpoint - 768px
 */
 
 @include media-breakpoint-up(md) {
-
   .wrapper-card-b1 {
     display: flex;
     border: none;
@@ -90,7 +89,7 @@ Breakpoint - 768px
     .card-body {
       margin-top: 10px;
     }
-   }
+  }
 
   .wrapper-card-b1 {
     .card-img-b1 {
@@ -99,8 +98,8 @@ Breakpoint - 768px
         height: 80px;
         transition: all 0.5s;
         svg {
-        width: 30px;
-        height: 30px;
+          width: 30px;
+          height: 30px;
         }
       }
     }
@@ -113,13 +112,12 @@ Breakpoint - 1024px
 */
 
 @include media-breakpoint-up(lg) {
-  
   .wrapper-card-b1 {
     flex-direction: row;
     .card-body {
-       margin-top: 0;
-       margin-left: 10px;
-     }
+      margin-top: 0;
+      margin-left: 10px;
+    }
   }
 
   .wrapper-card-b1 {
@@ -135,7 +133,6 @@ Breakpoint - 1024px
       }
     }
   }
-
 }
 
 /*

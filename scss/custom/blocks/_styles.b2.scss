@@ -7,13 +7,13 @@ Block-2
 Breakpoint - 375px
 */
 
-.background-b2{
-  background-color:$white;
+.background-b2 {
+  background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.nav-link-b2{
+.nav-link-b2 {
   color: black;
 }
 
@@ -25,7 +25,8 @@ Breakpoint - 375px
   border-bottom-color: $primary;
 }
 
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
   border-left-color: $white;
   border-right-color: $white;
   border-top-color: $white;
@@ -37,7 +38,7 @@ Breakpoint - 375px
   padding: 0;
 }
 
-.card-b2{
+.card-b2 {
   border: none;
 }
 
@@ -67,12 +68,10 @@ Breakpoint - 375px
 
 .card-b2-btn:hover {
   display: flex;
-  /* margin: 5px;
-  padding: 5px; */
   border-radius: 100%;
-  background-color: #d01418;
+  background-color: $primary;
   color: $white;
-  border: 1px solid #d01418;
+  border: 1px solid $primary;
   transition: all 0.5s;
 }
 
@@ -86,12 +85,10 @@ Breakpoint - 375px
 Breakpoint - 768px
 */
 
-
 /*
 -------------------------------------------------------
 Breakpoint - 1024px
 */
-
 
 /*
 -------------------------------------------------------

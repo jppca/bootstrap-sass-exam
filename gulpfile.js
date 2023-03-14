@@ -118,8 +118,9 @@ gulp.task('cssrename', function () {
 
 gulp.task('build', gulp.series([
   'sass',
+  'cssmin'
   // 'sass_ckeditor',
-  'cssrename',
+  // 'cssrename',
   // 'cssrename_ckeditor',
   // 'jsheader',
   // 'jsfooter',

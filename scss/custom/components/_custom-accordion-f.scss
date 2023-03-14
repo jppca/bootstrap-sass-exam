@@ -8,12 +8,13 @@
   --#{$prefix}accordion-bg: #{$accordion-bg};
   --#{$prefix}accordion-transition: #{$accordion-transition};
   //--#{$prefix}accordion-border-color: #{$accordion-border-color};
-  --#{$prefix}accordion-border-color: #202020;
+  --#{$prefix}accordion-border-color: #212529;
   --#{$prefix}accordion-border-width: #{$accordion-border-width};
   --#{$prefix}accordion-border-radius: #{$accordion-border-radius};
   --#{$prefix}accordion-inner-border-radius: #{$accordion-inner-border-radius};
   --#{$prefix}accordion-btn-padding-x: #{$accordion-button-padding-x};
-  --#{$prefix}accordion-btn-padding-y: #{$accordion-button-padding-y};
+  //--#{$prefix}accordion-btn-padding-y: #{$accordion-button-padding-y};
+  --#{$prefix}accordion-btn-padding-y: 8px;
   --#{$prefix}accordion-btn-color: #{$accordion-button-color};
   --#{$prefix}accordion-btn-bg: #{$accordion-button-bg};
   --#{$prefix}accordion-btn-icon: #{escape-svg($accordion-button-icon)};
@@ -23,13 +24,14 @@
   --#{$prefix}accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon)};
   --#{$prefix}accordion-btn-focus-border-color: #{$accordion-button-focus-border-color};
   // --#{$prefix}accordion-btn-focus-box-shadow: #{$accordion-button-focus-box-shadow};
-  --#{$prefix}accordion-btn-focus-box-shadow: #202020;
+  --#{$prefix}accordion-btn-focus-box-shadow: #212529;
   --#{$prefix}accordion-body-padding-x: #{$accordion-body-padding-x};
   --#{$prefix}accordion-body-padding-y: #{$accordion-body-padding-y};
+ // --#{$prefix}accordion-body-padding-y: 8px;
   // --#{$prefix}accordion-active-color: #{$accordion-button-active-color};
-  --#{$prefix}accordion-active-color: #202020;
+  --#{$prefix}accordion-active-color: #212529;
   // --#{$prefix}accordion-active-bg: #{$accordion-button-active-bg};
-  --#{$prefix}accordion-active-bg: #202020;
+  --#{$prefix}accordion-active-bg: #212529;
   // scss-docs-end accordion-css-vars
 }
 
@@ -44,7 +46,7 @@
   color: #ffffff;
   text-align: left; // Reset button style
   // background-color: var(--#{$prefix}accordion-btn-bg);
-  background-color: #202020;
+  background-color: #212529;
   border: 0;
   @include border-radius(0);
   overflow-anchor: none;
@@ -96,9 +98,9 @@
   // background-color: var(--#{$prefix}accordion-bg);
   // border: var(--#{$prefix}accordion-border-width) solid var(--#{$prefix}accordion-border-color);
   color:  #ffffff;
-  background-color: #202020;
+  background-color: #212529;
   // border: var(--#{$prefix}accordion-border-width) solid var(--#{$prefix}accordion-border-color);
-  border: #202020;
+  border: #212529;
 
   &:first-of-type {
     @include border-top-radius(var(--#{$prefix}accordion-border-radius));

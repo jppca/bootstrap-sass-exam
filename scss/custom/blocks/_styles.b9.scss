@@ -26,33 +26,32 @@ Breakpoint - 375px
   flex-wrap: nowrap;
 }
 
-#btn-prev-b9{
+#btn-prev-b9 {
   margin: 0;
   background-color: $white;
   border: none;
 }
 
-#btn-next-b9{
+#btn-next-b9 {
   margin: 0;
   background-color: $white;
   border: none;
-
 }
 
-.wrapper-b9-item-s{
+.wrapper-b9-item-s {
   display: flex;
   align-items: center;
-  svg{
+  svg {
     margin-right: 2px;
   }
 }
 
-#custom-row-b9{
+#custom-row-b9 {
   flex-wrap: nowrap;
   transform: translateX(0px);
-  transition: all .5s;
+  transition: all 0.5s;
   margin-top: 20px;
-  .custom-col-b9{
+  .custom-col-b9 {
     background-color: $white;
   }
 }
