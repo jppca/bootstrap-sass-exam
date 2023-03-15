@@ -11296,34 +11296,38 @@ Block-10
 Breakpoint - 375px
 */
 .background-b10 {
-  background-color: white;
+  background-color: #fff;
   padding-top: 30px;
   padding-bottom: 30px; }
-
-.wrapper-b10 {
-  background-color: white;
-  border-radius: 4px;
-  border: 1px solid #e3e5e9;
-  padding: 10px; }
+  .background-b10 .wrapper-b10 {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #e3e5e9;
+    padding: 10px; }
 
 .row-b10 {
   overflow: hidden;
   flex-wrap: nowrap; }
 
-.wrapper-b10 * + * {
-  margin-top: 10px; }
-
 .content-img-b10 {
   width: 165px;
   height: auto; }
+  .content-img-b10 .img-fluid-b10 {
+    width: 100%;
+    height: 100%; }
 
-.img-fluid-b10 {
-  width: 100%;
-  height: 100%; }
-
-/*Breakpoint - 768px*/
-/*Breakpoint - 1024px*/
-/*Breakpoint - 1440px*/
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
 /*
 Block-11
 */
@@ -11475,12 +11479,10 @@ Breakpoint -365px
 
 .custom-list-footer {
   margin-top: 0; }
-
-.custom-list-footer * + * {
-  margin-top: 10px; }
-
-.custom-list-footer *:nth-child(1) {
-  margin-top: 0; }
+  .custom-list-footer * + * {
+    margin-top: 10px; }
+  .custom-list-footer *:nth-child(1) {
+    margin-top: 0; }
 
 .custom-card-footer {
   border-radius: 4px;
@@ -11533,17 +11535,29 @@ Breakpoint -365px
       justify-content: center;
       align-items: center; }
 
+.background-botton-bar-fotter {
+  background-color: Black; }
+
 .dis-fd {
   display: none; }
 
 .dis-fm {
   display: flex; }
 
+.custom-p-btn-f {
+  position: fixed;
+  left: 70%;
+  bottom: 5%; }
+
 /*
 -------------------------------------------------------
 Breakpoint - 768px
 */
 @media (min-width: 768px) {
+  .custom-p-btn-f {
+    position: fixed;
+    left: 80%;
+    bottom: 5%; }
   .custom-card-footer {
     margin-top: 12px; }
   .dis-fd {
@@ -11556,6 +11570,10 @@ Breakpoint - 768px
  Breakpoint - 1024px
  */
 @media (min-width: 1200px) {
+  .custom-p-btn-f {
+    position: fixed;
+    left: 85%;
+    bottom: 5%; }
   .dis-fd {
     display: flex; }
   .dis-fm {

@@ -14,15 +14,21 @@ Breakpoint -365px
 
 .custom-list-footer {
   margin-top: 0;
+  * + * {
+   margin-top: 10px;
+  }
+  *:nth-child(1) {
+    margin-top: 0;
+  }
 }
 
-.custom-list-footer * + * {
-  margin-top: 10px;
-}
-
-.custom-list-footer *:nth-child(1) {
-  margin-top: 0;
-}
+// .custom-list-footer * + * {
+//   margin-top: 10px;
+// }
+//
+// .custom-list-footer *:nth-child(1) {
+//   margin-top: 0;
+// }
 
 .custom-card-footer {
   border-radius: 4px;
@@ -93,6 +99,10 @@ Breakpoint -365px
   }
 }
 
+.background-botton-bar-fotter{
+ background-color: Black;
+}
+
 .dis-fd {
   display: none;
 }
@@ -101,11 +111,24 @@ Breakpoint -365px
   display: flex;
 }
 
+.custom-p-btn-f{
+  position: fixed;
+  left: 70%;
+  bottom: 5%;
+}
+
 /*
 -------------------------------------------------------
 Breakpoint - 768px
 */
 @include media-breakpoint-up(md) {
+
+  .custom-p-btn-f{
+    position: fixed;
+    left: 80%;
+    bottom: 5%;
+  }
+
   .custom-card-footer {
     margin-top: 12px;
   }
@@ -125,6 +148,13 @@ Breakpoint - 768px
  */
 
 @include media-breakpoint-up(xl) {
+
+  .custom-p-btn-f{
+    position: fixed;
+    left: 85%;
+    bottom: 5%;
+  }
+
   .dis-fd {
     display: flex;
   }
@@ -132,6 +162,7 @@ Breakpoint - 768px
   .dis-fm {
     display: none;
   }
+
 }
 
 /*
@@ -147,4 +178,5 @@ Breakpoint - 1440px
   .dis-fm {
     display: none;
   }
+
 }

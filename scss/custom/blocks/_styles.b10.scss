@@ -9,16 +9,18 @@ Breakpoint - 375px
 
 
 .background-b10{
-  background-color: white;
+  background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.wrapper-b10{
-  background-color: white;
-  border-radius: 4px;
-  border: 1px solid #e3e5e9;
-  padding: 10px;
+  .wrapper-b10{
+    background-color: $white;
+    border-radius: 4px;
+    border: 1px solid #e3e5e9;
+    padding: 10px;
+    // * + *{
+    //   margin-top: 10px;
+    // }
+  }
 }
 
 .row-b10{
@@ -26,35 +28,29 @@ Breakpoint - 375px
   flex-wrap: nowrap;
 }
 
-.wrapper-b10 * + *{
-  margin-top: 10px;
-}
-
-
 .content-img-b10{
   width: 165px;
   height: auto;
+  .img-fluid-b10{
+    width: 100%;
+    height: 100%;
+  }
 
 }
 
-.img-fluid-b10{
-  width: 100%;
-  height: 100%;
-}
-
-/*Breakpoint - 768px*/
-@media screen and (min-width: 768px) {
+/*
+-------------------------------------------------------
+Breakpoint - 768px
+*/
 
 
-}
-/*Breakpoint - 1024px*/
-@media screen and (min-width: 1024px) {
+/*
+-------------------------------------------------------
+Breakpoint - 1024px
+*/
 
 
-}
-
-/*Breakpoint - 1440px*/
-@media screen and (min-width: 1440px) {
-
-
-}
+/*
+-------------------------------------------------------
+Breakpoint - 1440px
+*/
