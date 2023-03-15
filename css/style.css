@@ -10356,6 +10356,9 @@ styles-section-3
   border-bottom-right-radius: 0;
   align-items: center; }
 
+.btn-main-nav-s3 svg {
+  margin-right: 4px; }
+
 .s-item-s3 {
   display: none; }
 
@@ -11546,8 +11549,13 @@ Breakpoint -365px
 
 .custom-p-btn-f {
   position: fixed;
-  left: 70%;
-  bottom: 5%; }
+  left: 80%;
+  bottom: 5%;
+  color: #d01418;
+  transition: all 0.5s; }
+
+.custom-p-btn-f:hover {
+  color: #202020; }
 
 /*
 -------------------------------------------------------

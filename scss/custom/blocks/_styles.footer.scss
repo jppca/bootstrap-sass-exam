@@ -113,8 +113,14 @@ Breakpoint -365px
 
 .custom-p-btn-f{
   position: fixed;
-  left: 70%;
+  left: 80%;
   bottom: 5%;
+  color: #d01418;
+  transition: all 0.5s;
+}
+
+.custom-p-btn-f:hover{
+ color: #202020;
 }
 
 /*
