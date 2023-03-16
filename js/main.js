@@ -1,4 +1,16 @@
-/*carousel-b4 */
+
+/* side-nav */
+document.getElementById('btn-nav-control').addEventListener('click',displaySideNav);
+
+function displaySideNav(){
+  if(document.getElementById('side-nav-page').style.display == "none"){
+  document.getElementById('side-nav-page').style.display = "block";
+  }else{
+  document.getElementById('side-nav-page').style.display = "none";
+}
+}
+
+/* carousel-b4 */
 
 document.getElementById('btn-next-b4').addEventListener('click',carouselMoveNextBf);
 let  customRow = document.getElementsByClassName('custom-row-b4');
