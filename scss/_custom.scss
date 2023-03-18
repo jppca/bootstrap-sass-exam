@@ -3,30 +3,31 @@
 /**
  * Components.
  */
-@import 'custom/components/reboot';
-@import 'custom/components/custom-buttons';
-@import 'custom/components/custom-accordion';
-@import 'custom/components/custom-accordion-f';
+@import 'custom/02-components/reboot';
+@import 'custom/02-components/custom-buttons';
+@import 'custom/02-components/custom-accordion';
+@import 'custom/02-components/custom-accordion-f';
 
 
  /**
  * Blocks.
  */
-@import 'custom/blocks/styles-g';
-@import 'custom/blocks/styles.nav';
-@import 'custom/blocks/styles.nav-1';
-@import 'custom/blocks/styles.side-bar';
-@import 'custom/blocks/styles.hero';
-@import 'custom/blocks/styles.b1';
-@import 'custom/blocks/styles.b2';
-@import 'custom/blocks/styles.b3';
-@import 'custom/blocks/styles.b4';
-@import 'custom/blocks/styles.b5';
-@import 'custom/blocks/styles.b6';
-@import 'custom/blocks/styles.b8';
-@import 'custom/blocks/styles.b9';
-@import 'custom/blocks/styles.b10';
-@import 'custom/blocks/styles.b11';
-@import 'custom/blocks/styles.b12';
-@import 'custom/blocks/styles.b13';
-@import 'custom/blocks/styles.footer';
+@import 'custom/03-globals/styles-g';
+@import 'custom/01-blocks/03-styles-b3.scss';
+// @import 'custom/01-blocks/styles.nav';
+// @import 'custom/01-blocks/styles.nav-1';
+// @import 'custom/01-blocks/styles.side-bar';
+// @import 'custom/01-blocks/styles.hero';
+// @import 'custom/01-blocks/styles.b1';
+@import 'custom/01-blocks/04-styles-b4.scss';
+// @import 'custom/01-blocks/styles.b3';
+//@import 'custom/01-blocks/styles.b4';
+@import 'custom/01-blocks/styles.b5';
+@import 'custom/01-blocks/styles.b6';
+@import 'custom/01-blocks/styles.b8';
+@import 'custom/01-blocks/styles.b9';
+@import 'custom/01-blocks/styles.b10';
+@import 'custom/01-blocks/styles.b11';
+@import 'custom/01-blocks/styles.b12';
+@import 'custom/01-blocks/styles.b13';
+@import 'custom/01-blocks/styles.footer';

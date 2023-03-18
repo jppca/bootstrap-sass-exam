@@ -1,19 +1,19 @@
-/*
-Block-2
+/**
+* Block-4
 */
 
-/*
--------------------------------------------------------
-Breakpoint - 375px
+/**
+* -------------------------------------------------------
+* Breakpoint - 375px
 */
 
-.background-b2 {
+.background-b4 {
   background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.nav-link-b2 {
+.nav-link-b4 {
   color: black;
 }
 
@@ -33,16 +33,16 @@ Breakpoint - 375px
   border-bottom-color: $primary;
 }
 
-.wrapper-btn-b2 {
+.wrapper-btn-b4 {
   margin: 0;
   padding: 0;
 }
 
-.card-b2 {
+.card-b4 {
   border: none;
 }
 
-.card-b2-btns-center-img {
+.card-b4-btns-center-img {
   display: inline-flex;
   position: absolute;
   opacity: 0;
@@ -52,7 +52,7 @@ Breakpoint - 375px
   transition: all 0.5s;
 }
 
-.card-b2-btn {
+.card-b4-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +66,7 @@ Breakpoint - 375px
   border: 1px solid #b8b8b8;
 }
 
-.card-b2-btn:hover {
+.card-b4-btn:hover {
   display: flex;
   border-radius: 100%;
   background-color: $primary;
@@ -75,7 +75,7 @@ Breakpoint - 375px
   transition: all 0.5s;
 }
 
-.carousel-b2-0-item:hover .card-b2-btns-center-img {
+.carousel-b4-0-item:hover .card-b4-btns-center-img {
   transition: all 0.5s;
   opacity: 1;
 }
