@@ -1,48 +1,63 @@
 /**
-* Block-4
+*  Block-4
 */
 
 /**
-* -------------------------------------------------------
-* Breakpoint - 375px
+*  -------------------------------------------------------
+*  Breakpoint - 375px
 */
 
-.background-b4 {
+.background-b4{
   background-color: $white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.nav-link-b4 {
+.wrapper-title-b4{
+  *:nth-child(1){
+    margin-top: 0;
+  }
+  * + *{
+    margin-top: 10px;
+  }
+}
+
+.nav-link-b4{
   color: black;
 }
 
-.nav-tabs .nav-link.active {
-  color: $primary;
-  border-left-color: $white;
-  border-right-color: $white;
-  border-top-color: $white;
-  border-bottom-color: $primary;
+.nav-tabs{ 
+  .nav-link.active{
+    color: $primary;
+    border-left-color: $white;
+    border-right-color: $white;
+    border-top-color: $white;
+    border-bottom-color: $primary;
+  }
 }
 
-.nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus {
-  border-left-color: $white;
-  border-right-color: $white;
-  border-top-color: $white;
-  border-bottom-color: $primary;
+.nav-tabs{
+  .nav-link{
+    &:hover,
+    &:focus{
+      border-left-color: $white;
+      border-right-color: $white;
+      border-top-color: $white;
+      border-bottom-color: $primary;
+    } 
+  }
 }
 
-.wrapper-btn-b4 {
+.wrapper-btn-b4{
   margin: 0;
   padding: 0;
 }
 
-.card-b4 {
+.card-b4{
   border: none;
 }
 
-.card-b4-btns-center-img {
+.card-b4-btns-center-img{
   display: inline-flex;
   position: absolute;
   opacity: 0;
@@ -52,7 +67,7 @@
   transition: all 0.5s;
 }
 
-.card-b4-btn {
+.card-b4-btn{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,31 +81,37 @@
   border: 1px solid #b8b8b8;
 }
 
-.card-b4-btn:hover {
-  display: flex;
-  border-radius: 100%;
-  background-color: $primary;
-  color: $white;
-  border: 1px solid $primary;
-  transition: all 0.5s;
+.card-b4-btn{
+  &:hover{
+    display: flex;
+    border-radius: 100%;
+    background-color: $primary;
+    color: $white;
+    border: 1px solid $primary;
+    transition: all 0.5s;
+  }
 }
 
-.carousel-b4-0-item:hover .card-b4-btns-center-img {
-  transition: all 0.5s;
-  opacity: 1;
+.carousel-b4-0-item{ 
+  &:hover{
+    .card-b4-btns-center-img{
+      transition: all 0.5s;
+      opacity: 1;
+    }
+  }
 }
 
-/*
--------------------------------------------------------
-Breakpoint - 768px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 768px
 */
 
-/*
--------------------------------------------------------
-Breakpoint - 1024px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
 */
 
-/*
--------------------------------------------------------
-Breakpoint - 1440px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
 */

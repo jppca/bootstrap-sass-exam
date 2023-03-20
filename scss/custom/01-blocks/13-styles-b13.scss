@@ -1,0 +1,48 @@
+/**
+*  Block-13
+*/
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 375px
+*/
+
+.background-b13{
+  background-color: $white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .wrapper-b13{
+    border: 1px solid #d1d2d2;
+    border-radius: 4px;
+
+    .card-b13{
+      border: none;
+      background-color: black;
+      color: $white;
+      text-align: center;
+      font-size: 12px;
+
+      .card-body-b13{
+        *+*{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 768px
+*/
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
+*/
+
+/**
+* -------------------------------------------------------
+*  Breakpoint - 1440px
+*/

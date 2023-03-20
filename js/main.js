@@ -1,6 +1,13 @@
 
 /* side-nav */
+
 document.getElementById('btn-nav-control').addEventListener('click',displaySideNav);
+
+window.addEventListener("resize", function(){
+  if(window.innerWidth < 1024){
+    document.getElementById('side-nav-page').style.display = "none";
+  }
+});
 
 function displaySideNav(){
   if(document.getElementById('side-nav-page').style.display == "none"){
@@ -10,53 +17,53 @@ function displaySideNav(){
 }
 }
 
-/* carousel-b4 */
+/* carousel-b6 */
 
-// document.getElementById('btn-next-b4').addEventListener('click',carouselMoveNextBf);
-// let  customRow = document.getElementsByClassName('custom-row-b4');
-// function carouselMoveNextBf(){
-//   customCol = document.getElementsByClassName('custom-col-b4');
-//  let pxmov = customCol[0].offsetWidth;
-//   document.getElementById("custom-row-b4").style.transform = "translateX(-"+pxmov+"px)";
-// }
+document.getElementById('btn-next-b6').addEventListener('click',carouselMoveNextBf);
+let  customRow = document.getElementsByClassName('custom-row-b6');
+function carouselMoveNextBf(){
+customCol = document.getElementsByClassName('custom-col-b6');
+let pxmov = customCol[0].offsetWidth;
+document.getElementById("custom-row-b6").style.transform = "translateX(-"+pxmov+"px)";
+}
 
-// document.getElementById('btn-prev-b4').addEventListener('click',carouselMovePrevBf);
-// function carouselMovePrevBf(){
-//   customCol = document.getElementsByClassName('custom-col-b4');
-//   pxmov = customCol[0].offsetWidth;
-//   document.getElementById("custom-row-b4").style.transform = "translateX("+0+"px)";
-// }
+document.getElementById('btn-prev-b6').addEventListener('click',carouselMovePrevBf);
+function carouselMovePrevBf(){
+customCol = document.getElementsByClassName('custom-col-b6');
+pxmov = customCol[0].offsetWidth;
+document.getElementById("custom-row-b6").style.transform = "translateX("+0+"px)";
+}
 
-/*carousel-b6 */
+/*carousel-b8 */
 
-document.getElementById('btn-next-b6').addEventListener('click',carouselMoveNextBs);
-let  customRowBsix = document.getElementsByClassName('custom-row-b6');
+document.getElementById('btn-next-b8').addEventListener('click',carouselMoveNextBs);
+let  customRowBsix = document.getElementsByClassName('custom-row-b8');
 function carouselMoveNextBs(){
-  customColBsix = document.getElementsByClassName('custom-col-b6');
- let pxmov = customColBsix[0].offsetWidth;
-  document.getElementById("custom-row-b6").style.transform = "translateX(-"+pxmov+"px)";
+customColBsix = document.getElementsByClassName('custom-col-b8');
+let pxmov = customColBsix[0].offsetWidth;
+document.getElementById("custom-row-b8").style.transform = "translateX(-"+pxmov+"px)";
 }
 
-document.getElementById('btn-prev-b6').addEventListener('click',carouselMovePrevBs);
+document.getElementById('btn-prev-b8').addEventListener('click',carouselMovePrevBs);
 function carouselMovePrevBs(){
-  customColRowBsix = document.getElementsByClassName('custom-col-b6');
-  pxmov = customColRowBsix[0].offsetWidth;
-  document.getElementById("custom-row-b6").style.transform = "translateX("+0+"px)";
+customColRowBsix = document.getElementsByClassName('custom-col-b8');
+pxmov = customColRowBsix[0].offsetWidth;
+document.getElementById("custom-row-b8").style.transform = "translateX("+0+"px)";
 }
 
-/*carousel-b9 */
+/*carousel-b10 */
 
-document.getElementById('btn-next-b9').addEventListener('click',carouselMoveNextBn);
-let  customRowBnine = document.getElementsByClassName('custom-row-b9');
+document.getElementById('btn-next-b10').addEventListener('click',carouselMoveNextBn);
+let  customRowBnine = document.getElementsByClassName('custom-row-b10');
 function carouselMoveNextBn(){
-  customColBnine = document.getElementsByClassName('custom-col-b9');
- let pxmov = customColBnine[0].offsetWidth;
-  document.getElementById("custom-row-b9").style.transform = "translateX(-"+pxmov+"px)";
+customColBnine = document.getElementsByClassName('custom-col-b10');
+let pxmov = customColBnine[0].offsetWidth;
+document.getElementById("custom-row-b10").style.transform = "translateX(-"+pxmov+"px)";
 }
 
-document.getElementById('btn-prev-b9').addEventListener('click',carouselMovePrevBn);
+document.getElementById('btn-prev-b10').addEventListener('click',carouselMovePrevBn);
 function carouselMovePrevBn(){
-  customColRowBnine = document.getElementsByClassName('custom-col-b9');
-  pxmov = customColRowBnine[0].offsetWidth;
-  document.getElementById("custom-row-b9").style.transform = "translateX("+0+"px)";
+customColRowBnine = document.getElementsByClassName('custom-col-b10');
+pxmov = customColRowBnine[0].offsetWidth;
+document.getElementById("custom-row-b10").style.transform = "translateX("+0+"px)";
 }

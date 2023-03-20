@@ -1,0 +1,37 @@
+/**
+*  side-bar-styles
+*/
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 375px
+*/
+.wrapper-side-bar{
+  background-color: $white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dis-side-bar{
+  display: none;
+}
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 768px
+*/
+ /**
+ *  -------------------------------------------------------
+ *  Breakpoint - 1024px
+ */
+
+ @include media-breakpoint-up(lg) { 
+
+  .dis-side-bar{
+    display: block;
+  }  
+ }
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
+*/

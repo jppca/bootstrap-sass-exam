@@ -1,0 +1,184 @@
+/**
+*  Footer
+*/
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint -365px
+*/
+
+.background-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .custom-list-footer{
+    margin-top: 0;
+  
+    *+*{
+     margin-top: 10px;
+    }
+  
+    *:nth-child(1){
+      margin-top: 0;
+    }
+  }
+
+  a{
+    transition: all 0.5s;
+  }
+
+  .wrapper-rs-f {
+    display: flex;
+  
+    .item-rs {
+      display: flex;
+      margin: 0px 4px;
+  
+      .style-l-rs-f {
+        display: flex;
+        background-color: $white;
+        @include border-radius(4px);
+        width: 35px;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }  
+}
+
+.custom-card-footer {
+  @include border-radius(4px);
+  margin-top: 12px;
+}
+
+.wrapper-card-img-footer {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content-card-img {
+    @include border-radius(100%);
+    border: 2px solid #cccccc;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      display: flex;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+.wrapper-card-info-footer{
+  text-align: center;
+  padding: 12px;
+
+  .wrapper-input-footer::placeholder{
+    text-align: center;
+    line-height: 100px;
+  }
+
+  .custom-btn-form-f{
+    width: 100%;
+    transition: all 0.5s;
+
+    &:hover{
+      color: $white;
+      background-color: black;
+    }
+  }
+
+  *:nth-child(1){
+    margin-top: 0;
+  }
+
+  *+*{
+    margin-top: 12px;
+  }
+}
+
+.background-botton-bar-footer{
+ background-color: Black;
+}
+
+.dis-fd {
+  display: none;
+}
+
+.dis-fm {
+  display: flex;
+}
+
+
+.custom-p-btn-f{
+  position: fixed;
+  left: 80%;
+  bottom: 5%;
+  color: #d01418;
+  transition: all 0.5s;
+
+  &:hover{
+    color: #202020;
+  }
+}
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 768px
+*/
+
+@include media-breakpoint-up(md) {
+
+  .custom-p-btn-f{
+    position: fixed;
+    left: 80%;
+    bottom: 5%;
+  }
+
+  .custom-card-footer {
+    margin-top: 12px;
+  }
+
+  .dis-fd {
+    display: flex;
+  }
+
+  .dis-fm {
+    display: none;
+  }
+}
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
+*/
+
+@include media-breakpoint-up(xl) {
+
+  .custom-p-btn-f{
+    position: fixed;
+    left: 85%;
+    bottom: 5%;
+  }
+
+  .dis-fd {
+    display: flex;
+  }
+
+  .dis-fm {
+    display: none;
+  }
+
+}
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
+*/
+

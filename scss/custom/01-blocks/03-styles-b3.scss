@@ -1,10 +1,10 @@
 /**
-* Block-3
+*  Block-3
 */
 
 /**
-* -------------------------------------------------------
-* Breakpoint - 375px
+*  -------------------------------------------------------
+*  Breakpoint - 375px
 */
 
 .background-b3{
@@ -45,16 +45,13 @@
         width: 30px;
         height: 30px;
       }
-
     }
   }
-}
-
-.wrapper-card-b3:hover{
-  .card-img-b3{
-
-    .wrapper-card-img-b3{
-      border: 1px solid $primary;
+  &:hover{
+    .card-img-b3{
+      .wrapper-card-img-b3{
+        border: 1px solid $primary;
+      }
     }
   }
 }
@@ -63,34 +60,27 @@
   .card-body{
     margin-top: 0;
     margin-left: 10px;
-  }
-}
 
-.card-body{
-  .card-title-b3{
-    font-size: 12px;
-    line-height: 1.2;
-  }
-  .card-text-b3{
-    font-size: 10px;
-    line-height: 1.2;
-  }
-}
-
-.card-body{
-
-  *:nth-child(1){
-    margin-top: 0;
-  }
-
-  * + *{
-    margin-top: 10px;
+    .card-title-b3{
+      font-size: 12px;
+      line-height: 1.2;
+    }
+    .card-text-b3{
+      font-size: 10px;
+      line-height: 1.2;
+    }
+    *:nth-child(1){
+      margin-top: 0;
+    }
+    * + *{
+      margin-top: 10px;
+    }
   }
 }
 
 /**
-* -------------------------------------------------------
-* Breakpoint - 768px
+*  -------------------------------------------------------
+*  Breakpoint - 768px
 */
 
 @include media-breakpoint-up(md){
@@ -111,11 +101,9 @@
   }
 
   .wrapper-card-b3{
-
     .card-body{
       margin-left: 0;
     }
-
     .card-img-b3{
       width: 150px;
 
@@ -134,8 +122,8 @@
 }
 
 /**
-* -------------------------------------------------------
-* Breakpoint - 1024px
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
 */
 
 @include media-breakpoint-up(lg){
@@ -147,10 +135,6 @@
       margin-top: 0;
       margin-left: 10px;
     }
-
-  }
-
-  .wrapper-card-b3{
 
     .card-img-b3{
       width: fit-content;
@@ -166,14 +150,11 @@
         }
       }
     }
+
   }
 }
 
-
 /**
-* -------------------------------------------------------
-* Breakpoint - 1440px
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
 */
-
-@include media-breakpoint-up(xxl) {
-}

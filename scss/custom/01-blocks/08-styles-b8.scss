@@ -1,0 +1,75 @@
+/**
+*  Block-8
+*/
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 375px
+*/
+
+.background-b8 {
+  background-color: $white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .wrapper-b8 {
+    overflow: hidden;
+
+    .wrapper-title-b8 {
+      text-align: center;
+      border-bottom: 2px solid #f5f5f5;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    #btn-prev-b8 {
+      margin: 0;
+      background-color: $white;
+      border: none;
+
+      &:hover{
+        color: $primary;
+      }
+    }
+    
+    #btn-next-b8 {
+      margin: 0;
+      background-color: $white;
+      border: none;
+
+      &:hover{
+        color: $primary;
+      }
+    }
+
+    #custom-row-b8 {
+      flex-wrap: nowrap;
+      transform: translateX(0px);
+      transition: all 0.5s;
+      margin-top: 20px;
+
+      .custom-col-b8 {
+        background-color: $white;
+    
+      }
+    }
+  }
+}
+
+/**
+*  -------------------------------------------------------
+*   Breakpoint - 768px
+*/
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
+*/
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
+*/

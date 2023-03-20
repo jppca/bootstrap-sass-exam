@@ -1,9 +1,10 @@
-/*
-Global-styles
+/**
+*  Global-styles
 */
 
 a {
   display: inline-block;
+  word-break: break-word;
 }
 
 .order-col-custom-1 {
@@ -26,10 +27,11 @@ span {
   word-break: break-word;
 }
 
-/*
--------------------------------------------------------
-Breakpoint - 768px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 768px
 */
+
 @include media-breakpoint-up(md) {
   .order-col-custom-1 {
     order: 2;
@@ -40,10 +42,11 @@ Breakpoint - 768px
   }
 }
 
-/*
--------------------------------------------------------
-Breakpoint - 1024px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
 */
+
 @include media-breakpoint-up(lg) {
   .order-col-custom-1 {
     order: 2;
@@ -54,17 +57,16 @@ Breakpoint - 1024px
   }
 }
 
-/*
--------------------------------------------------------
-Breakpoint - 1200px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1200px
 */
-@include media-breakpoint-up(xl) {
-}
 
-/*
--------------------------------------------------------
-Breakpoint - 1440px
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
 */
+
 @include media-breakpoint-up(xxl) {
   .order-col-custom-1 {
     order: 2;

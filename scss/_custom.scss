@@ -1,33 +1,42 @@
+/**
+* mixins
+*/
+
+@import 'custom/00-mixin/12-border-radius.scss';
+
+/**
+* Blocks.
+*/
+
+@import 'custom/01-blocks/00-styles-main-nav.scss';
+@import 'custom/01-blocks/01-styles-side-bar.scss';
+@import 'custom/01-blocks/02-styles-hero.scss';
+@import 'custom/01-blocks/03-styles-b3.scss';
+@import 'custom/01-blocks/04-styles-b4.scss';
+@import 'custom/01-blocks/05-styles-b5.scss';
+@import 'custom/01-blocks/06-styles-b6.scss';
+@import 'custom/01-blocks/07-styles-b7.scss';
+@import 'custom/01-blocks/08-styles-b8.scss';
+@import 'custom/01-blocks/09-styles-b9.scss';
+@import 'custom/01-blocks/10-styles-b10.scss';
+@import 'custom/01-blocks/11-styles-b11.scss';
+@import 'custom/01-blocks/12-styles-b12.scss';
+@import 'custom/01-blocks/13-styles-b13.scss';
+@import 'custom/01-blocks/14-styles-b14.scss';
+@import 'custom/01-blocks/15-styles-footer.scss';
+
+/**
+* Components.
+*/
+
+@import 'custom/02-components/00-reboot.scss';
+@import 'custom/02-components/01-custom-buttons.scss';
+@import 'custom/02-components/02-custom-accordion.scss';
+@import 'custom/02-components/03-custom-accordion-f.scss';
 
 
 /**
- * Components.
- */
-@import 'custom/02-components/reboot';
-@import 'custom/02-components/custom-buttons';
-@import 'custom/02-components/custom-accordion';
-@import 'custom/02-components/custom-accordion-f';
+* Globals.
+*/
 
-
- /**
- * Blocks.
- */
-@import 'custom/03-globals/styles-g';
-@import 'custom/01-blocks/03-styles-b3.scss';
-// @import 'custom/01-blocks/styles.nav';
-// @import 'custom/01-blocks/styles.nav-1';
-// @import 'custom/01-blocks/styles.side-bar';
-// @import 'custom/01-blocks/styles.hero';
-// @import 'custom/01-blocks/styles.b1';
-@import 'custom/01-blocks/04-styles-b4.scss';
-// @import 'custom/01-blocks/styles.b3';
-//@import 'custom/01-blocks/styles.b4';
-@import 'custom/01-blocks/styles.b5';
-@import 'custom/01-blocks/styles.b6';
-@import 'custom/01-blocks/styles.b8';
-@import 'custom/01-blocks/styles.b9';
-@import 'custom/01-blocks/styles.b10';
-@import 'custom/01-blocks/styles.b11';
-@import 'custom/01-blocks/styles.b12';
-@import 'custom/01-blocks/styles.b13';
-@import 'custom/01-blocks/styles.footer';
+@import 'custom/03-globals/00-styles-g.scss';
