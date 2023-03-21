@@ -67,3 +67,20 @@ customColRowBnine = document.getElementsByClassName('custom-col-b10');
 pxmov = customColRowBnine[0].offsetWidth;
 document.getElementById("custom-row-b10").style.transform = "translateX("+0+"px)";
 }
+
+/* carousel - b15*/
+
+document.getElementById('btn-next-b15').addEventListener('click',carouselMoveNextBxv);
+let  customRowBxv = document.getElementsByClassName('custom-row-b15');
+function carouselMoveNextBxv(){
+customColBxv = document.getElementsByClassName('custom-col-b15');
+let pxmov = customColBxv[0].offsetWidth;
+document.getElementById("custom-row-b15").style.transform = "translateX(-"+pxmov+"px)";
+}
+
+document.getElementById('btn-prev-b15').addEventListener('click',carouselMovePrevBxv);
+function carouselMovePrevBxv(){
+customColRowBxv = document.getElementsByClassName('custom-col-b15');
+pxmov = customColRowBxv[0].offsetWidth;
+document.getElementById("custom-row-b15").style.transform = "translateX("+0+"px)";
+}

@@ -9423,7 +9423,7 @@ textarea.form-control-lg {
   height: 235px; }
   .wrapper-img-hero .img-fluid-hero {
     width: 100%;
-    height: 100%;
+    height: auto;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
@@ -9975,7 +9975,7 @@ textarea.form-control-lg {
 *  Breakpoint - 1440px
 */
 /**
-* Block-9
+* Block-10
 */
 /**
 * -------------------------------------------------------
@@ -10221,6 +10221,79 @@ textarea.form-control-lg {
 *  Breakpoint - 1440px
 */
 /**
+*  Block-15
+*/
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 375px
+*/
+.background-b15 {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .background-b15 .wrapper-b15 {
+    overflow: hidden; }
+    .background-b15 .wrapper-b15 .wrapper-title-b15 {
+      text-align: center;
+      border-bottom: 2px solid #d01418;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap; }
+      .background-b15 .wrapper-b15 .wrapper-title-b15 .title-b15 {
+        font-size: 25px;
+        margin-top: 0; }
+    .background-b15 .wrapper-b15 #btn-prev-b15 {
+      margin: 0;
+      background-color: #fff;
+      border: none; }
+      .background-b15 .wrapper-b15 #btn-prev-b15:hover {
+        color: #d01418; }
+    .background-b15 .wrapper-b15 #btn-next-b15 {
+      margin: 0;
+      background-color: #fff;
+      border: none; }
+      .background-b15 .wrapper-b15 #btn-next-b15:hover {
+        color: #d01418; }
+    .background-b15 .wrapper-b15 #custom-row-b15 {
+      flex-wrap: nowrap;
+      transform: translateX(0px);
+      transition: all 0.5s;
+      margin-top: 20px; }
+      .background-b15 .wrapper-b15 #custom-row-b15 .custom-col-b15 {
+        background-color: #fff; }
+        .background-b15 .wrapper-b15 #custom-row-b15 .custom-col-b15 .wrapper-b15-item-s {
+          display: flex;
+          align-items: center; }
+          .background-b15 .wrapper-b15 #custom-row-b15 .custom-col-b15 .wrapper-b15-item-s svg {
+            margin-right: 2px; }
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 768px
+*/
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1024px
+*/
+@media (min-width: 1024px) {
+  .background-b15 .wrapper-b15 .wrapper-title-b15 .title-b15 {
+    font-size: 12px; } }
+
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1200px
+*/
+/**
+*  -------------------------------------------------------
+*  Breakpoint - 1440px
+*/
+@media (min-width: 1440px) {
+  .background-b15 .wrapper-b15 .wrapper-title-b15 .title-b15 {
+    font-size: 24px; } }
+
+/**
 *  Footer
 */
 /**
@@ -10312,6 +10385,9 @@ textarea.form-control-lg {
 .dis-fm {
   display: flex; }
 
+.dis-lf {
+  display: none; }
+
 .custom-p-btn-f {
   position: fixed;
   left: 80%;
@@ -10335,6 +10411,8 @@ textarea.form-control-lg {
   .dis-fd {
     display: flex; }
   .dis-fm {
+    display: none; }
+  .dis-lf {
     display: none; } }
 
 /**
@@ -10349,12 +10427,18 @@ textarea.form-control-lg {
   .dis-fd {
     display: flex; }
   .dis-fm {
+    display: none; }
+  .dis-lf {
     display: none; } }
 
 /**
 *  -------------------------------------------------------
 *  Breakpoint - 1440px
 */
+@media (min-width: 1440px) {
+  .dis-lf {
+    display: flex; } }
+
 /**
 * Components.
 */

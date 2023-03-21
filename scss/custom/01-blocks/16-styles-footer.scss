@@ -115,6 +115,9 @@
   display: flex;
 }
 
+.dis-lf{
+  display: none;
+}
 
 .custom-p-btn-f{
   position: fixed;
@@ -152,6 +155,10 @@
   .dis-fm {
     display: none;
   }
+
+  .dis-lf{
+    display: none;
+  }
 }
 
 /**
@@ -175,6 +182,10 @@
     display: none;
   }
 
+  .dis-lf{
+    display: none;
+  }
+
 }
 
 /**
@@ -182,3 +193,10 @@
 *  Breakpoint - 1440px
 */
 
+@include media-breakpoint-up(xxl) {
+
+  .dis-lf{
+    display: flex;
+  }
+
+}
