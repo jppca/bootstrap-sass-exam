@@ -15,7 +15,7 @@
     * + * {
       margin-top: 10px;
     }
-  }  
+  }
 }
 
 .card-b5 {
@@ -47,6 +47,7 @@
     .img-fluid-b5 {
       width: 100%;
       height: 100%;
+      object-fit: cover;
     }
   }
 }
