@@ -5,5 +5,9 @@
 #/scss
 /bootstrap-5.0.2-examples
 /bootstrap-5
+/scss
 cheatsheet.html
-# package-lock.json
+package-lock.json
+package.json
+gulpfile.js
+
